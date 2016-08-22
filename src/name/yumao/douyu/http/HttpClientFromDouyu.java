@@ -176,7 +176,7 @@ public class HttpClientFromDouyu {
         	
         	
         	//http://www.douyu.com/swf_api/room/141371?cdn=&nofan=yes&_t=24487156&sign=c2c0e502375e6425e32a6d40929d70cd
-    		String API_SECRET = "bLFlashflowlad92";
+    		String API_SECRET = "blFlashflowlad92";
     		String time = Long.valueOf(System.currentTimeMillis() / (60 * 1000) )+"";
         	//http://capi.douyucdn.cn/api/v1/room/145201?aid=android1&client_sys=android&ne=1&support_pwd=1&time=1469155020&auth=b6f26683a970c5b0e524c47516b6c4f1
             //String e = "room/" + roomNum + "?aid=android1&client_sys=android&ne=1&support_pwd=1&time=" + ;
@@ -211,7 +211,7 @@ public class HttpClientFromDouyu {
 		  HttpEntity httpEntity =null;
 		 HttpPost post = new HttpPost("http://www.douyu.com/lapi/live/getPlay/"+num);
 		 //did=64416AD9E882213CBE160FB795AB90EC&cdn=&sign=f31b29f6ed27b6f088c9adc9fe2c08aa&rate=0&tt=24490882
-		 String s = "A12Svb&%1UUmf@hC";
+		 String s = "Al2Svb&%1UUmf@hC";
 		 String time = Long.valueOf(System.currentTimeMillis() / (60 * 1000) )+"";
 		 String uuid = UUID.randomUUID().toString().replaceAll("-", "").toUpperCase();
 		 String sign = MD5Util.MD5(num+uuid+s+time);
